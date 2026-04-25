@@ -1,0 +1,21 @@
+{
+  "name": "grocery-compare",
+  "version": "1.0.0",
+  "description": "Estonian grocery store price comparison – Selver vs Barbora",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3",
+    "fuse.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.39",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
